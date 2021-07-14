@@ -165,6 +165,7 @@ func (p *createAPISubcommand) PostScaffold() error {
 		if err != nil {
 			return err
 		}
+        fmt.Printf("TODO: Edit the API definition & reconciliation business logic\nNext: generate targets with:\n$ make manifests\n")
 	}
 
 	return nil
